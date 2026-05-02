@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  background: #eece93;
+  font-family: Arial, sans-serif;
+}
+
+
+.sistema {
+  display: grid;
+  grid-template-columns: 250px 1fr;
+  min-height: calc(100vh - 80px);
+}
+
+.topo {
+  display: flex;
+  justify-content: space-between;
+  background: black;
+  align-items: center;
+  margin: auto;
+  padding: 25px;
+  max-height: 50px;
+}
+
+
+.logo {
+  display: block;
+}
+
+
+.topo-esquerda img {
+  height: 120px;
+}
+
+.topo-direita img {
+  height: 70px;
+  opacity: 0.9;
+}
+
+.topo-direita {
+  border-left: 3px solid rgba(82, 80, 1, 0.918);
+  padding-left: 20px;
+}
+
+
+.menu-lateral {
+  background: #1f1f1f;
+  color: white;
+  padding: 20px;
+}
+
+
+.menu-lateral nav a {
+  display: block;
+  color: white;
+  text-decoration: none;
+  padding: 10px 0;
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+
+
+
+
+.form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+  
+  padding: 20px;
+  border-radius: 20px; /* Bordas arredondadas */
+
+
+  background: rgba(255, 255, 255, 0.25); 
+  /* Fundo transparente (efeito vidro) */
+
+  backdrop-filter: blur(8px); 
+  /* Desfoque do fundo atrás do card */
+
+  -webkit-backdrop-filter: blur(8px); 
+  /* Compatibilidade com Safari */
+
+  border: 1px solid rgba(255, 255, 255, 0.3); 
+  /* Borda leve para destacar o card */
+  
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+
+button {
+  padding: 10px 15px;
+  background: #2f2f2f;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+li {
+  background: rgba(255, 255, 255, 0.6);
+  margin: 8px 0;
+  padding: 12px 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  border-radius: 10px;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+
