@@ -23,7 +23,7 @@ O projeto simula um painel administrativo para gestão de produtos de uma loja d
 
 - HTML5
 - CSS3
-- JavaScript
+- JavaScript (EM FASE DE DESENVOLVIMENTO)
 
 ---
 
