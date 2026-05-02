@@ -4,6 +4,9 @@ Sistema de controle de estoque simples desenvolvido em HTML, CSS e JavaScript, c
 ---
 
 # Sistema de Controle de Estoque — Maricota Wear
+TELA ETAPA 1:
+<img width="1350" height="597" alt="image" src="https://github.com/user-attachments/assets/a671ea1c-602d-4064-8acc-eb0ebd37b390" />
+
 
 Este é um sistema simples de controle de estoque EM DESENVOLVIMENTO com **HTML, CSS e JavaScript**.  
 O projeto simula um painel administrativo para gestão de produtos de uma loja de vestuário.
